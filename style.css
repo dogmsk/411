@@ -1,0 +1,108 @@
+/*
+Theme Name:original-mairaku
+*/
+
+/* サイト全体の設定 */
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #fffded;
+}
+
+a {
+    text-decoration: none;
+    margin: 10;
+    padding: 5px;
+    color: #ffffff;
+}
+
+ul {
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff9100;
+}
+
+header {
+    margin: 0;
+    background-color: #ffcc8a;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+@media(min-width:768px) {
+    header {
+        display: flex;
+    }
+    header nav ul{
+        display: flex;
+    }
+}
+
+.title {
+    color: #666666;
+    
+} 
+
+ul {
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.read {
+    max-width: 800px;
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background: #ff9100;
+
+}
+
+.news_list {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/**
+* ***************************************
+* フッター
+* ***************************************
+*/
+footer {
+    background-color: #575757;
+    margin: 0;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.menu-btn {
+    position: absolute;
+    right: 0;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .menu-btn {
+        display: none;
+    }    
+}
